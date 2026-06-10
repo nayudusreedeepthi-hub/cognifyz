@@ -1,0 +1,72 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Paragraph */
+p {
+    width: 70%;
+    margin: 10px auto;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Image */
+img {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Form */
+.form-container {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
